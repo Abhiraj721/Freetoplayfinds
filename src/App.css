@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  justify-content: center;
 }
 
 .App-logo {
@@ -35,4 +36,93 @@
   to {
     transform: rotate(360deg);
   }
+}
+.gamecard a{
+  text-decoration: none;
+}
+.gamecard{
+  font-family: 'Roboto';
+  background-color: #ffffff;
+  padding: 7px;
+  margin-bottom: 12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.gamecard img {
+  width: 100%;
+}
+.gamecard  .gameinfo{
+margin: 0 auto;
+}
+.btn {
+
+  background : #cef084;
+  
+  background-image : linear-gradient(to bottom, #cef084, #b7df6d);
+  
+  border-radius : 0px;
+  
+  font-family : Tahoma, sans-serif;
+  
+  box-shadow : 0px 0px 0px #a3bc24;
+  
+  color : #4b4949;
+  
+  font-size : 13px;
+  
+  border : solid #cae736 2px;
+  
+  padding : 2px 15px 5px 14px;
+  
+  text-decoration : none;
+  
+  }
+  
+  
+  .btn:hover {
+  
+  background : #cbdc4c;
+  
+  background-image : linear-gradient(to bottom, #cbdc4c, #c4d63d);
+  
+  text-decoration : none;
+  
+  }
+  .nav{
+    position: sticky;
+    background-color: rgb(244, 247, 250);
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+  }
+  .searchinput{
+    width: 200px;
+    height: 36px;
+  }
+  @media (max-width: 768px) {
+    .searchinput {
+      width: 140px;
+    }
+  }
+  .head{
+    font-family: Ubuntu, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+  }
+  @media (max-width: 768px) {
+    .head {
+     font-size: 18px;
+     margin-top: 4px;
+    }
+  }
+.footer{
+display: flex;
+justify-content: center;
+font-family: sofia;
+}
+.nofound{
+  display: flex;
+  font-weight: bolder;
+  justify-content: center;
 }
